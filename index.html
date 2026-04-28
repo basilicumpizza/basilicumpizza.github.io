@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+    <title>Basilicum</title>
+    <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: ffffff;
+    }
+
+    header {
+      background-color: #284338;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .container {
+      padding: 20px;
+    }
+
+    .produtos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .produto {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.2s;
+    }
+
+    .produto:hover {
+      transform: scale(1.03);
+    }
+
+    .produto img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .produto-info {
+      padding: 15px;
+    }
+
+    .produto-info h3 {
+      margin: 0 0 10px;
+    }
+
+    .produto-info p {
+      font-size: 14px;
+      color: #555;
+    }
+
+    .preco {
+      color: #284338;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #ddd;
+      margin-top: 20px;
+    }
+  </style>
+  </head>
+  <body>
+    <header> <img style="width: 431px; height: 157px;" src="Imagens\index\logosemfundoindex.png" alt="logo">
+      <p>Massas artesanais e de fermentação lenta</p>
+    </header>
+    <div class="container">
+      <h2>Nossos Produtos</h2>
+      <div class="produtos">
+        <!-- Produto 1 -->
+        <a href="pizzas.html" class="produto">
+          <img src="Imagens\index\pizzaindex.jpeg" alt="Pizza">
+          <div class="produto-info">
+            <h3>Pizzas</h3>
+            <p>Feitas com massa de fermentação lenta e ingredientes selecionados</p>
+            <div class="preco">a partir de R$ 15,00</div>
+          </div>
+        </a>
+        <!-- Produto 2 -->
+        <div class="produto"> <img src="Imagens\index\lasanhaindex.jpeg" alt="Lasanha">
+          <div class="produto-info">
+            <h3>Lasanhas</h3>
+            <p>Lasanha com massa fresca artesanal e com recheios caseiros</p>
+            <div class="preco">a partir de R$ 35,00</div>
+          </div>
+        </div>
+        <!-- Produto 3 -->
+        <div class="produto"> <img src="Imagens\index\esfihaindex.jpeg" alt="Esfihas">
+          <div class="produto-info">
+            <h3>Esfihas</h3>
+            <p>massa de longa fermentação fofinhas e saborosas</p>
+            <div class="preco">a partir de R$ 4,00</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p>📞 Contato: (41) 98775-7544</p>
+      <p>📍 Pinheirinho - Curitiba - PR</p>
+    </footer>
+  </body>
+</html>

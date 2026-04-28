@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+    <title>Basilicum</title>
+    <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: ffffff;
+    }
+
+    header {
+      background-color: #284338;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .container {
+      padding: 20px;
+          }
+
+    .produtos {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(250px, 1fr));
+      gap: 20px;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+
+    .produto {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.2s;
+    }
+
+    .produto:hover {
+      transform: scale(1.03);
+    }
+
+    .produto img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .produto-info {
+      padding: 15px;
+    }
+
+    .produto-info h3 {
+      margin: 0 0 10px;
+    }
+
+    .produto-info p {
+      font-size: 14px;
+      color: #555;
+    }
+
+    .preco {
+      color: #284338;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #ddd;
+      margin-top: 20px;
+    }
+  </style>
+  </head>
+  <body>
+    <header> <img style="width: 431px; height: 157px;" src="Imagens\Index\logosemfundoindex.png" alt="logo">
+      <p>Massas artesanais e de fermentação lenta</p>
+    </header>
+    <div class="container">
+      <h2>Pizzas Tradicionais</h2>
+      <div class="preco"></div><h2>R$ 15,00</h2></div>
+      <div class="produtos">
+        <!-- tradicional 1 -->
+        <div class="produto"> <img src="Imagens\pizzas\calabresa.png" alt="Calabresa">
+          <div class="produto-info">
+            <h3>CALABRESA</h3>
+            <p>massa, molho de tomate, queijo mussarela, calabresa fatiada, orégano</p>
+          </div>
+        </div>
+        <!-- tradicional 1.1 -->
+        <div class="produto"> <img src="Imagens\pizzas\placeholder.png" alt="Calabresa Acebolada">
+          <div class="produto-info">
+            <h3>CALABRESA ACEBOLADA</h3>
+            <p>massa, molho de tomate, queijo mussarela, calabresa fatiada, cebola fatiada, orégano</p>
+          </div>
+        </div>
+        <!-- tradicional 2 -->
+        <div class="produto"> <img src="Imagens\pizzas\placeholder.png" alt="Frango">
+          <div class="produto-info">
+            <h3>FRANGO</h3>
+            <p>massa, molho de tomate, queijo mussarela, frango desfiado, orégano</p>
+            </div>
+        </div>
+        <!-- tradicional 3 -->
+        <div class="produto"> <img src="Imagens\pizzas\placeholder.png" alt="Bacon">
+          <div class="produto-info">
+            <h3>BACON</h3>
+            <p>massa, molho de tomate, queijo mussarela, bacon</p>
+            </div>
+        </div>
+        <!-- tradicional 3.1 -->
+        <div class="produto"> <img src="Imagens\pizzas\placeholder.png" alt="Bacon c/ Milho">
+          <div class="produto-info">
+            <h3>BACON c/ MILHO</h3>
+            <p>massa, molho de tomate, queijo mussarela, bacon, milho verde</p>
+            </div>
+        </div>
+        <!-- tradicional 4 -->
+        <div class="produto"> <img src="Imagens\pizzas\placeholder.png" alt="Marguerita">
+          <div class="produto-info">
+            <h3>MARGUERITA</h3>
+            <p>massa, molho de tomate, tomate cereja, manjericão fresco</p>
+            </div>
+        </div>
+        <!-- tradicional 5 -->
+        <div class="produto"> <img src="Imagens\pizzas\placeholder.png" alt="Pernil">
+          <div class="produto-info">
+            <h3>PERNIL</h3>
+            <p>massa, molho de tomate, queijo mussarela, pernil desfiado ao molho</p>
+            </div>
+        </div>
+        <!-- tradicional 6 -->
+        <div class="produto"> <img src="Imagens\pizzas\placeholder.png" alt="Portuguesa">
+          <div class="produto-info">
+            <h3>PORTUGUESA</h3>
+            <p>massa, molho de tomate, queijo mussarela, presunto, ovo cozido, azeitona, cebola fatiada</p>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <h2>Pizzas Especiais</h2>
+      <div class="preco"></div><h2>R$ 18,00</h2></div>
+      <div class="produtos">
+        <!-- Especiais 1 -->
+        <div class="produto"> <img src="Imagens\pizzas\placeholder.png" alt="Calabresa Cremosa">
+          <div class="produto-info">
+            <h3>CALABRESA CREMOSA</h3>
+            <p>massa, molho de tomate, queijo mussarela, requeijão cremoso, calabresa fatiada, orégano</p>
+          </div>
+        </div>
+        <!-- Especiais 2 -->
+        <div class="produto"> <img src="Imagens\pizzas\placeholder.png" alt="Frango Cremoso">
+          <div class="produto-info">
+            <h3>FRANGO CREMOSO</h3>
+            <p>massa, molho de tomate, queijo mussarela, requeijão cremoso, frango desfiado, orégano</p>
+          </div>
+        </div>
+        <!-- Especiais 3 -->
+        <div class="produto"> <img src="Imagens\pizzas\placeholder.png" alt="Bacon Cremoso">
+          <div class="produto-info">
+            <h3>BACON CREMOSO</h3>
+            <p>massa, molho de tomate, queijo mussarela, requeijão cremoso, bacon</p>
+            </div>
+        </div>
+        <!-- Especiais 4 -->
+        <div class="produto"> <img src="Imagens\pizzas\placeholder.png" alt="Milho Cremoso">
+          <div class="produto-info">
+            <h3>MILHO CREMOSO</h3>
+            <p>massa, molho de tomate, queijo mussarela, requeijão cremoso, milho verde</p>
+            </div>
+        </div>
+        <!-- Especiais 5 -->
+        <div class="produto"> <img src="Imagens\pizzas\placeholder.png" alt="Pernil Cremoso">
+          <div class="produto-info">
+            <h3>PERNIL CREMOSO</h3>
+            <p>massa, molho de tomate, queijo mussarela, requeijão cremoso, pernil desfiado ao molho</p>
+            </div>
+        </div>
+        <!-- Especiais 6 -->
+        <div class="produto"> <img src="Imagens\pizzas\placeholder.png" alt="3 queijos">
+          <div class="produto-info">
+            <h3>3 QUEIJOS</h3>
+            <p>massa, molho de tomate, queijo mussarela, requeijão cremoso, queijo gorgonzola</p>
+            </div>
+        </div>
+        <!-- Especiais 7 -->
+        <div class="produto"> <img src="Imagens\pizzas\placeholder.png" alt="Campeira">
+          <div class="produto-info">
+            <h3>CAMPEIRA</h3>
+            <p>massa, molho de tomate, queijo mussarela, linguiça colonial artesanal, ovo cozido</p>
+            </div>
+        </div>
+        <!-- Especiais 8 -->
+        <div class="produto"> <img src="Imagens\pizzas\placeholder.png" alt="Atum">
+          <div class="produto-info">
+            <h3>ATUM</h3>
+            <p>massa, molho de tomate, queijo mussarela, Atum desfiado, cebola fatiada</p>
+            </div>
+        </div>
+  </div>
+        <footer>
+      <p>📞 Contato: (41) 98775-7544</p>
+      <p>📍 Pinheirinho - Curitiba - PR</p>
+    </footer>
+  </body>
+</html>
