@@ -1,128 +1,70 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-  <head>
-    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
-    <title>Basilicum</title>
-    <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      background-color: ffffff;
-    }
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Basilicum</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-    header {
-      background-color: #284338;
-      color: white;
-      padding: 20px;
-      text-align: center;
-    }
+<header class="header">
+  <img style="width: 431px; height: 157px;" src="Imagens\index\logosemfundoindex.png" alt="logo">
+  <p>Massas artesanais de fermentação lenta</p>
+</header>
 
-    .container {
-      padding: 20px;
-    }
+<section class="container-produtos">
 
-    .produtos {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
-    }
-
-    .produto {
-      background: white;
-      border-radius: 10px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-      overflow: hidden;
-      transition: transform 0.2s;
-    }
-
-    .produto:hover {
-      transform: scale(1.03);
-    }
-
-    .produto img {
-      width: 100%;
-      height: 180px;
-      object-fit: cover;
-    }
-
-    .produto-info {
-      padding: 15px;
-    }
-
-    .produto-info h3 {
-      margin: 0 0 10px;
-    }
-
-    .produto-info p {
-      font-size: 14px;
-      color: #555;
-    }
-
-    .preco {
-      color: #284338;
-      font-weight: bold;
-      margin-top: 10px;
-    }
-
-    footer {
-      text-align: center;
-      padding: 15px;
-      background: #ddd;
-      margin-top: 20px;
-    }
-  </style>
-  </head>
-  <body>
-    <header> <img style="width: 431px; height: 157px;" src="Imagens\index\logosemfundoindex.png" alt="logo">
-      <p>Massas artesanais e de fermentação lenta</p>
-    </header>
-    <div class="container">
-      <h2>Nossos Produtos</h2>
-      <div class="produtos">
-        <!-- Produto 1 -->
-        <a href="pizzas.html" class="produto">
-          <img src="Imagens\index\pizzaindex.jpeg" alt="Pizza">
-          <div class="produto-info">
-            <h3>Pizzas</h3>
-            <p>Feitas com massa de fermentação lenta e ingredientes selecionados</p>
-            <div class="preco">a partir de R$ 15,00</div>
-          </div>
-        </a>
-        <!-- Produto 2 -->
-        <a href="lasanha.html" class="produto">
-        <div class="produto"> <img src="Imagens\index\lasanhaIndex.png" alt="Lasanha">
-          <div class="produto-info">
-            <h3>Lasanhas</h3>
-            <p>Lasanha com massa fresca artesanal e com recheios caseiros</p>
-            <div class="preco">a partir de R$ 35,00</div>
-          </div>
-        </div>
-        </a>
-        <!-- Produto 3 -->
-        <a href="esfihas.html" class="produto">
-        <div class="produto"> <img src="Imagens\index\esfihaindex.jpeg" alt="Esfihas">
-          <div class="produto-info">
-            <h3>Esfihas</h3>
-            <p>massa de longa fermentação fofinhas e saborosas</p>
-            <div class="preco">a partir de R$ 4,00</div>
-          </div>
-        </div>
-        </a>
-         <!-- Produto 4 -->
-        <a href="focaccias.html" class="produto">
-        <div class="produto"> <img src="Imagens\pizzas\placeholder.png" alt="Foccacias">
-          <div class="produto-info">
-            <h3>Foccacias</h3>
-            <p>massa de longa fermentação fofinhas e saborosas</p>
-            <div class="preco">a partir de R$ 25,00</div>
-          </div>
-        </div>
-        </a>
-      </div>
+  <a href="pizzas.html" class="card">
+    <img src="Imagens\index\pizzaindex.jpeg">
+    <div class="card-content">
+      <span class="tag">PIZZAS</span>
+      <h3>Pizzas</h3>
+      <p>Massa de fermentação lenta e ingredientes selecionados.</p>
+      <div class="preco">a partir de R$ 15,00</div>
     </div>
-    <footer>
-      <p>📞 Contato: (41) 98775-7544</p>
-      <p>📍 Pinheirinho - Curitiba - PR</p>
-    </footer>
-  </body>
+  </a>
+
+  <a href="lasanhas.html" class="card">
+    <img src="Imagens\index\lasanhaIndex.png">
+    <div class="card-content">
+      <span class="tag">LASANHAS</span>
+      <h3>Lasanhas</h3>
+      <p>Recheios caseiros com massa artesanal fresca.</p>
+      <div class="preco">a partir de R$ 35,00</div>
+    </div>
+  </a>
+
+   <a href="esfihas.html" class="card">
+    <img src="Imagens\index\esfihaindex.jpeg">
+    <div class="card-content">
+      <span class="tag">ESFIHAS</span>
+      <h3>Esfihas</h3>
+      <p>massa artesanal fofinha e crocante.</p>
+      <div class="preco">a partir de R$ 4,00</div>
+    </div>
+  </a>
+
+   <a href="foccacia.html" class="card">
+    <img src="Imagens\placeholder.png">
+    <div class="card-content">
+      <span class="tag">FOCCACIA</span>
+      <h3>Focaccias</h3>
+      <p>Massa de longa fermentação.</p>
+      <div class="preco">a partir de R$ 25,00</div>
+    </div>
+  </a>
+
+</section>
+
+<a href="https://wa.me/5541987757544?text=Olá!%20Vim%20pelo%20site%20da%20Basilicum%20e%20gostaria%20de%20mais%20informações." 
+   class="btn-whatsapp" target="_blank">
+  💬 Falar no WhatsApp
+</a>
+
+<footer class="footer">
+  <p>📞 (41) 98775-7544</p>
+  <p>📍 Curitiba - PR</p>
+</footer>
+
+</body>
 </html>
